@@ -1,0 +1,25 @@
+{
+  "name": "number-guessing-game-react",
+  "repository": "https://github.com/InkoHX/number-guessing-game-react.git",
+  "author": "InkoHX <inkohx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next"
+  },
+  "resolutions": {
+    "webpack": "^5.0.0-beta.22"
+  },
+  "dependencies": {
+    "next": "^9.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^3.9.7"
+  }
+}
