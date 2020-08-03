@@ -28,7 +28,7 @@ const Page: NextPage = () => {
       <p>数当たり: {hitCount}</p>
       <label>
         回答:
-        <input type='text' onChange={inputHandler} />
+        <input type='text' maxLength={5} autoComplete='off' onChange={inputHandler} />
       </label>
     </>
   )
